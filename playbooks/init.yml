@@ -1,13 +1,13 @@
 ---
-- name:
+- name: 
   hosts: all
   become: true
   vars:
     docker_users:
       - panda
       - vagrant
-      docker_daemon_options:
-        insecure-registries: ["192.168.44.44:8082"]
+    docker_daemon_options:
+      insecure-registries : ["192.168.44.44:8082"]  
   roles:
     - user
     - packages
