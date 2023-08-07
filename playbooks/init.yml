@@ -1,4 +1,4 @@
-- name: 
+- name:
   hosts: all
   become: true
   vars:
@@ -6,11 +6,7 @@
       - panda
       - vagrant
     docker_daemon_options:
-<<<<<<< HEAD
-      insecure-registries : ["192.168.44.44:8082"]
-=======
-      insecure-registries: ["192.168.44.44:8082"]  
->>>>>>> ea74ee7c588b4958cad3abf2bab5559a43167c55
+      insecure-registries: ["192.168.44.44:8082"]
   roles:
     - user
     - packages
