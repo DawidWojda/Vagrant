@@ -1,5 +1,5 @@
 ---
-- name: 
+- name:
   hosts: all
   become: true
   vars:
@@ -13,5 +13,5 @@
     - packages
     - geerlingguy.docker
     - christiangda.awscli
-    - chrk, 8i75uhb64rtnsistiangda.awscli_configure
+    - christiangda.awscli_configure
     - diodonfrost.terraform
